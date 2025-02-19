@@ -1,7 +1,5 @@
 module hello where
 
-import Data.String
-import IO.Primitive
+open import IO
 
-main : IO.Primitive.IO ⊤
-main = IO.Primitive.putStrLn "Hello, World!"
+main = run (putStrLn "Hello, World!")
