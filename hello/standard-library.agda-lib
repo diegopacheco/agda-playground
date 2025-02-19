@@ -1,4 +1,4 @@
 name: standard-library
 include: src
 depend:
-flags: --warning=noUnsupportedIndexedMatch
+flags: --safe
